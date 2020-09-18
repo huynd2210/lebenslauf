@@ -1,0 +1,21 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+    background-color: #5ba7d1;
+    color: white;
+    min-height: 100vh;
+}
+
+.avatar {
+    display: block;
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 120px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 12px;
+}
