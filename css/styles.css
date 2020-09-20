@@ -1,5 +1,12 @@
 body, html {
     font-family: 'Roboto', sans-serif;
+    background-color: #ccc;
+}
+
+.wrapper {
+    background-color: white;
+    width: 75%;
+    margin: 0 auto !important;
 }
 
 .profile {
@@ -12,6 +19,23 @@ body, html {
     display: block;
 }
 
+.name {
+    color: darkblue;
+}
+
+.description {
+    color: cornflowerblue;
+}
+
+.description-text {
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+.light-description {
+    color: #999;
+    font-size: 1.1rem;
+}
 img.avatar {
     border-radius: 50%;
     width: 120px;
